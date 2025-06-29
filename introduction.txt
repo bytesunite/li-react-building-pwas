@@ -1,6 +1,8 @@
 LinkedIn Learning
 React: Building Progressive Web Apps (PWAs)
 by Eve Porcello
+https://www.linkedin.com/learning/react-building-progressive-web-apps-pwas/build-a-resilient-progressive-web-app-with-react
+
 
 Introduction
 -----------------------

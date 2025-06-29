@@ -1,0 +1,67 @@
+LinkedIn Learning
+React: Building Progressive Web Apps (PWAs)
+by Eve Porcello
+https://www.linkedin.com/learning/react-building-progressive-web-apps-pwas/what-is-a-progressive-web-app
+
+Chapter 1 - What are PWAs
+  * What is a Progressive Web App?
+  * Why PWAs?
+  * Using the PWA checklist
+
+
+What is a Progressive Web App?
+---------------------------------------------
+Think about how you interact with web applications on your mobile device. Typically you use a mobile web browser (Android Chrome, iOS Safari) or you download mobile apps like Instagram, Twitter, etc.
+A PWA can work on lower-speed networks and is installable.
+A PWA acts like a mobile website and a mobile application all in one.
+
+  * Web Browser
+  * Native Application
+  * Built for the web, acts like a native app
+  * Works regardless of browser choice
+  * Responsive
+  * Lower speed networks
+  * Installable
+
+
+Why PWAs?
+----------------------------------------
+Internet is being used more than ever, but users connect at varying speeds and different devices and we must try to optimize for all of them.
+
+A PWA might be a good choice if you want 
+  * an app installed on the homescreen of a mobile device
+  * work reliably over networks of varying speeds
+  * improve conversions when selling something or gathering user's data
+
+Benefits of a PWA include:
+  * platform agnostic
+    users can can download the app on any device 
+  * no app store, less storage space
+    the app is not limited to using the devices App Store
+    and there is less storage space required for your app
+  * Use your knowledge of HTML, CSS, JS
+    A web developer can use the same technologies to build PWAs
+  
+Google provides resources on Progressive Web Apps
+URL: https://developers.google.com/web/progressive-web-apps
+
+The instructor points out "Progressive Web App Checklist" found in the section "Dive Deeper" of Googles PWAs developer resource.
+Google provides a list/overview of what is considers a "baseline PWA".
+Google mentions the Lighthouse tool can be used to verify many items:
+  * The site is served over https
+  * Pages are responsive on tablets & mobile devices
+    Use responsive design that adapts to multiple viewports
+  * All app urls load while offline
+    You can test this with airplane mode enabled.
+    The suggestion is to use a Service Worker
+  * Metadata provided for Add to Home Screen
+    This is done with a Web App Manifest file
+  * Load fast even on 3G
+  * Site works cross-browser
+    Test it on various browsers (Chrome, Firefox, Safari, Edge)
+  * Page transitions don't feel like they block on the network
+    Transitions should feel snappy and tested on a slow network.
+  * Each page has a url
+
+  This list goes on...
+

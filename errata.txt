@@ -1,0 +1,10 @@
+LinkedIn Learning
+React: Building Progressive Web Apps (PWAs)
+by Eve Porcello
+https://www.linkedin.com/learning/react-building-progressive-web-apps-pwas/
+
+[ch1 Using the PWA checklist]
+ISSUE(s):
+* The url provided does not display the same content in the course.
+  It is possible you need to have an active account to see what the instructor is showing on the screen.
+  https://developers.google.com/web/progressive-web-apps
