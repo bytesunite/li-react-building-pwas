@@ -1,0 +1,53 @@
+LinkedIn Learning
+React: Building Progressive Web Apps (PWAs)
+by Eve Porcello
+
+Introduction
+-----------------------
+As developers we are always looking for ways to make things faster and more performant for our users. We want users to be engaged with our products and mobile devices are one way to engage with our users. Progressive Web Apps (PWAs) have gained popularity as a way to use web technologies to build apps that act like native mobile apps.
+
+  * Web Browser 
+  * Native application
+  * Built for the web, acts like a native app
+  * Works regardless of browser choice
+  * Responsive
+
+Large popular companies such as the Washington Post, Twitter, etc. have found the value in PWAs in increasing user engagement and reducing data use.
+
+The instruction provides a Google study that says 53% of users will abandon a site if it takes longer than 3 seconds to load.
+
+NOTE: I think this is a low estimate. As a front-end developer the goal was always to build an intuitive interface that loads quickly (2 seconds or less) and if there is a delay to clearly inform the user (don't keep them guessing or waiting). Even without a delay a clear User Interface is key in reducing time the user takes to find what they are looking for.
+
+
+What you should know
+-------------------------------
+This course assumes you are familiar with the following, and have Node.js installed.
+
+  * JavaScript basics
+  * React basics
+  * basic understanding of npm to install packages
+
+
+If you are not familar with JavaScript, React, or Node.js Eve suggests the following courses.
+  * JavaScript Essential Training by Morten Rand-Hendrikson.
+    URL: https://www.linkedin.com/learning/javascript-essential-training
+  * React.js Essential Training
+    URL: https://www.linkedin.com/learning/react-essential-training
+  * Node Essential Training by (Eve Porcello new) (Alex Banks old)
+    URL: https://www.linkedin.com/learning/node-js-essential-training-14888164
+    URL: https://www.linkedin.com/learning/node-js-essential-training
+
+NOTE: Some of the best best books I've found on JavaScript and React:
+  * Brad Traversy's "Modern JavaScript from the Beginning, 2nd Ed.". 
+    Brad is a great instructor that holds your hand every step of the way.
+    URL: https://www.traversymedia.com/modern-javascript-2-0
+    URL: https://www.packtpub.com/en-us/product/modern-javascript-from-the-beginning-second-edition-9781805127826
+  * Maximilian Schwarzmuller's React Key Concepts 2nd Ed.
+    URL: https://www.packtpub.com/en-us/product/react-key-concepts-9781836202264
+  * Maximilian Schwarzmuller's React Complete Guide
+    Max is a great instructor that walks you step by step with examples
+    https://www.oreilly.com/library/view/react-the/9781801812603/
+
+
+
+
