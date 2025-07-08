@@ -20,7 +20,7 @@ Base Progressive Web App Checklist
   they should be snappy even on a slow network
 - each page has a URL
 
-Google even describes tools that can help you verify many items on the checklist. One tools mentioned on this site is called *Lighthouse*.<br>
+Google even provides tools that can help you verify many items on the checklist. One tool is called *Lighthouse*.<br>
 You can read the [Introduction to Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) on Google's developer website.
 
 Taken from Google's Developer Site:<br>
