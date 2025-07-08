@@ -1,7 +1,7 @@
 # Chapter 1 - What Are PWAs
 ## Lesson 3 - Using the PWA Checklist
 
-On Google's developer website there are several pages dedicated to PWAs. Not only is this a good resource for PWAs, but an excellent source for improving the quality of web sites. Google provides a PWA checklist to provide guidelines of what determines a Progressive Web App. Google also provides a tool to help test for compliance of items on the PWA checklist.
+On Google's developer website there are several pages dedicated to PWAs. Not only is this a good resource for PWAs, but an excellent source for improving the quality of web sites. Google provides a PWA tutorial, a PWA checklist as a guideline of what determines a Progressive Web App. Google also provides a tool, called *Lighthouse* to help test for compliance of items on the PWA checklist.
 
 Google's Developer website [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps)
 
@@ -20,7 +20,7 @@ Base Progressive Web App Checklist
   they should be snappy even on a slow network
 - each page has a URL
 
-Google even describes tools that can help you verify may items on the checklist. One tools mentioned on this site is called *Lighthouse*.<br>
+Google even describes tools that can help you verify many items on the checklist. One tools mentioned on this site is called *Lighthouse*.<br>
 You can read the [Introduction to Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) on Google's developer website.
 
 Taken from Google's Developer Site:<br>
