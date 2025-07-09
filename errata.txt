@@ -5,6 +5,10 @@ https://www.linkedin.com/learning/react-building-progressive-web-apps-pwas/
 
 [ch1 Using the PWA checklist]
 ISSUE(s):
-* The url provided does not display the same content in the course.
-  It is possible you need to have an active account to see what the instructor is showing on the screen.
+* The url provided does not display the same content as the course video.
+  It is possible that Google updated the page, or you need to have an active account and logged in to see what the instructor is seeing.
   https://developers.google.com/web/progressive-web-apps
+
+[ch2-4 Install serve]
+ISSUE(s):
+* The instructor installs the serve npm package globally. It would help to stop and explain the pros and cons of installing packages locally vs globally.
