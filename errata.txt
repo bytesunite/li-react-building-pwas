@@ -12,3 +12,8 @@ ISSUE(s):
 [ch2-4 Install serve]
 ISSUE(s):
 * The instructor installs the serve npm package globally. It would help to stop and explain the pros and cons of installing packages locally vs globally.
+
+[ch3-1]
+ISSUE(s)
+* The "Audit" tab in Google Dev Tools is DEPRECATED. Google currently uses the "Lighthouse" tab. Likewise, the interface is different by replacing the "Run Audits" button with "Analyze page load".
+
