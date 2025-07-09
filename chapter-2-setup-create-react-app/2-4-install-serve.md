@@ -12,7 +12,8 @@ If your server is currently running, stop in by going to the terminal where you 
 
 The instructor shows how to install the *serve* package globally, but you can also choose to install it locally for a project.
 
-Locally (project): I installed it this way, to prevent polluting the global environment. When you install packages locally you can install different versions for each project. When you install globally you are limited to a single version.<br>
+Locally (project): To prevent polluting the global environment I will run the serve package locally. When you install packages locally you can install different versions for each project. When you install globally you are limited to a single version.<br>
+NOTE: "npx" (not "npm") is used to run a command from a local or remote npm package. It will execute node.js packages directly from the npm registry (or a local package) without needing to install them globally on your system. This is useful for running one-time commands or trying out packages without cluttering your environment. First is <br>
 `my-application/$ npx serve`
 
 Globally (environment): The instructor installed it this way:<br>
