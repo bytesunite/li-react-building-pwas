@@ -18,6 +18,16 @@ The command would be `npm create-react-app my-application --template cra-templat
 Then go to "index.js" and comment out the import and invocation of "reportWebVitals". ReportWebVitals can cause bugs based on React/CRA dependencies/versions. We are focused on PWA first and foremost.
 REFERENCE: https://create-react-app.dev/docs/making-a-progressive-web-app/
 
+[ch2-3]
+ISSUE(s):
+* The syntax for the HTML video tag is wrong.
+  REFERENCE: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video
+
+  INSTRUCTOR: <video src={video.video_url} height={200} controls/>
+  FIX: <video height={200} controls>
+         <source src={video.video_url} type="video/mp4"/>
+       </video> 
+
 
 [ch2-4 Install serve]
 ISSUE(s):
@@ -46,3 +56,13 @@ The issue starts back in Chapter 2.
 
   The problem is when you run `npm create-react-app my-application` on your own environment it does NOT automatically create a "serverWorker.js" file. 
 
+
+[ch3-4 Going offline]
+ISSUE(s):
+* The syntax for the HTML video tag is wrong.
+  REFERENCE: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video
+
+  INSTRUCTOR: <video src={video} height={200} controls/>
+  FIX: <video height={200} controls>
+         <source src={video} type="video/mp4"/>
+       </video> 
