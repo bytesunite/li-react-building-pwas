@@ -15,6 +15,7 @@ ISSUE(s):
 * The instructor fails to mention how to use a template to create a React app for a PWA. This failure becomes apparent in Chapter 3-3 when talking about a file that does NOT exist (serviceWorker.js)
 
 The command would be `npm create-react-app my-application --template cra-template-pwa`
+Then go to "index.js" and comment out the import and invocation of "reportWebVitals". ReportWebVitals can cause bugs based on React/CRA dependencies/versions. We are focused on PWA first and foremost.
 REFERENCE: https://create-react-app.dev/docs/making-a-progressive-web-app/
 
 
