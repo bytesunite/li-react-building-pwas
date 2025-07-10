@@ -9,11 +9,39 @@ ISSUE(s):
   It is possible that Google updated the page, or you need to have an active account and logged in to see what the instructor is seeing.
   https://developers.google.com/web/progressive-web-apps
 
+
+[ch2-1 Using create-react-app]
+ISSUE(s):
+* The instructor fails to mention how to use a template to create a React app for a PWA. This failure becomes apparent in Chapter 3-3 when talking about a file that does NOT exist (serviceWorker.js)
+
+The command would be `npm create-react-app my-application cra-template-pwa`
+REFERENCE: https://create-react-app.dev/docs/making-a-progressive-web-app/
+
+
 [ch2-4 Install serve]
 ISSUE(s):
 * The instructor installs the serve npm package globally. It would help to stop and explain the pros and cons of installing packages locally vs globally.
 
-[ch3-1]
+
+[ch3-1 Using Lighthouse]
 ISSUE(s)
 * The "Audit" tab in Google Dev Tools is DEPRECATED. Google currently uses the "Lighthouse" tab. Likewise, the interface is different by replacing the "Run Audits" button with "Analyze page load".
+
+
+[ch3-3 Register a service worker]
+ISSUE(s)
+* The command `npm create-react-app my-application` command does NOT generate a   "src/serviceWorker.js" file.
+To correct this error in the instruction, you can create your own "src/service-worker.js" file and wire it up to "index.js",etc. 
+Or you can use a template from the beginning (which should have been done to begin with)
+
+The command would be `npm create-react-app my-application cra-template-pwa`
+
+REFERENCE: https://create-react-app.dev/docs/making-a-progressive-web-app/
+
+The issue starts back in Chapter 2.
+  In chapter 2-1 it shows using `npx create-react-app my-application` to create a new React application.
+
+  In chapter 2-2 it shows using the course exercise files with "npm i" to install dependencies. The final result is a React project with a "serviceWorker.js" file.
+
+  The problem is when you run `npm create-react-app my-application` on your own environment it does NOT automatically create a "serverWorker.js" file. 
 
