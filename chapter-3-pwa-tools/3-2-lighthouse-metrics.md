@@ -36,7 +36,7 @@ Remember, we will building our PWA project for production, so in this case the s
 
 First, stop your running server (CTRL + C) in the terminal. Then create a new build, start the server and re-run the audit in a Chrome incognito window.<br>
 ATTENTION: If you did NOT install server globally use `npx serve -s build`
-1. my-application/$ `npm use build`
+1. my-application/$ `npm run build`
 2. my-application/$ `serve -s build`
 3. Open the Chrome web browser & open a new incognito window/tab (or guest mode window). Navigate to the url provided by the last command
 4. Open Chrome Dev Tools, navigate to the "Lighthouse" tab
