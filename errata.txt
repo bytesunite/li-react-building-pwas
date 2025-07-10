@@ -20,7 +20,7 @@ REFERENCE: https://create-react-app.dev/docs/making-a-progressive-web-app/
 
 [ch2-3]
 ISSUE(s):
-* The syntax for the HTML video tag is wrong.
+* The syntax for the HTML video tag uses the optional src attribute. It is suggested to use a nested source tag to provide fallback text if the tag is not supported & additional sources for alternate media formats.
   REFERENCE: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video
 
   INSTRUCTOR: <video src={video.video_url} height={200} controls/>
@@ -59,7 +59,7 @@ The issue starts back in Chapter 2.
 
 [ch3-4 Going offline]
 ISSUE(s):
-* The syntax for the HTML video tag is wrong.
+* The syntax for the HTML video tag uses the optional src attribute. It is suggested to use a nested source tag to provide fallback text if the tag is not supported & additional sources for alternate media formats.
   REFERENCE: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video
 
   INSTRUCTOR: <video src={video} height={200} controls/>
