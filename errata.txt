@@ -3,6 +3,11 @@ React: Building Progressive Web Apps (PWAs)
 by Eve Porcello
 https://www.linkedin.com/learning/react-building-progressive-web-apps-pwas/
 
+
+[General Issues]
+* Google's Lighthouse has DEPRECATED the "PWA" interface. The course material is outdated by showing the PWA Audit interface that no longer exists
+
+
 [ch1 Using the PWA checklist]
 ISSUE(s):
 * The url provided does not display the same content as the course video.
@@ -68,3 +73,5 @@ Optionally, you could add an aria-label attribute to help describe the video.
   FIX: <video height={200} controls>
          <source src={video} type="video/mp4"/>
        </video> 
+
+
