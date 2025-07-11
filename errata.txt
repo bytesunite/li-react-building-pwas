@@ -5,7 +5,10 @@ https://www.linkedin.com/learning/react-building-progressive-web-apps-pwas/
 
 
 [General Issues]
-* Google's Lighthouse has DEPRECATED the "PWA" interface. The course material is outdated by showing the PWA Audit interface that no longer exists
+* The course uses Create React App but this has been DEPRECATED. 
+  Details can be found at https://react.dev/blog/2025/02/14/sunsetting-create-react-app
+  
+* Google's Lighthouse has DEPRECATED the "PWA" interface. The course material is outdated. The PWA Audit interface in the course videos is no longer visible in Lighthouse
 
 
 [ch1 Using the PWA checklist]
